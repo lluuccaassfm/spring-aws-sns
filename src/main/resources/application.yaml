@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: sns
+  cloud:
+    aws:
+      credentials:
+        access-key: dummy
+        secret-key: dummy
+      region:
+        static: sa-east-1
+      endpoint: http://localhost:4566
+      sns:
+        topic-arn: arn:aws:sns:sa-east-1:000000000000:sns-test

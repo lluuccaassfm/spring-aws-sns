@@ -10,6 +10,7 @@ import java.net.URI;
 @Configuration
 public class SnsConfig {
 
+    /*
     @Bean
     public SnsAsyncClient snsAsyncClient() {
         return SnsAsyncClient.builder()
@@ -17,5 +18,6 @@ public class SnsConfig {
                 .region(Region.SA_EAST_1)
                 .build();
     }
+    */
 
 }
